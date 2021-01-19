@@ -1,11 +1,11 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
-import LoginPage from './components/LoginPage';
+import Hello from './components/Hello';
 
 function App() {
   return (
     <Switch>
-      <Route exact path="/" component={LoginPage} />
+      <Route exact path="/" component={Hello} />
     </Switch>
   );
 }
